@@ -3,7 +3,8 @@ from cms.plugin_pool import plugin_pool
 from django.utils.translation import ugettext as _
 from django.conf import settings
 
-from models import BootstrapButtonPlugin
+from demo.libs.plugins.bootstrap_button.models import BootstrapButtonPlugin
+
 
 class BootstrapButtonPlugin(CMSPluginBase):
     model = BootstrapButtonPlugin

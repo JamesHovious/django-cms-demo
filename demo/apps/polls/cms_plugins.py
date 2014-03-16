@@ -2,7 +2,7 @@ from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 from django.utils.translation import ugettext as _
 
-from polls.models import PollPlugin as PollPluginModel
+from demo.apps.polls.models import PollPlugin as PollPluginModel
 
 class PollPlugin(CMSPluginBase):
     model = PollPluginModel # Model where data about this plugin is saved

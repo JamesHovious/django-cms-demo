@@ -1,5 +1,6 @@
 *.log
 *.pot
 *.pyc
-local_settings.py
+/demo/settings/dev.py
+/demo/settings/test.py
 .DS_Store

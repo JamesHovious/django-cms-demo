@@ -7,25 +7,11 @@ sys.path.insert(0, PROJECT_DIR)
 
 gettext = lambda s: s
 
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
-
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
 
 MANAGERS = ADMINS
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'demo.db',                      # Or path to database file if using sqlite3.
-        'USER': '',                      # Not used with sqlite3.
-        'PASSWORD': '',                  # Not used with sqlite3.
-        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-    }
-}
 
 TIME_ZONE = 'America/Chicago'
 
@@ -39,14 +25,14 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-MEDIA_ROOT = os.path.join(PROJECT_DIR, "libs/media")
+MEDIA_ROOT = os.path.join(PROJECT_DIR, "media")
 MEDIA_URL = '/media/'
 
 STATIC_ROOT = os.path.join(PROJECT_DIR, "static")
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_DIR, "libs/apps/blog/site-static"),
+    os.path.join(PROJECT_DIR, "site-static"),
 )
 
 STATICFILES_FINDERS = (
@@ -54,7 +40,7 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 
-SECRET_KEY = 'kr&amp;m^8_$@=%_%v*o@!$t2qye_bz3ohkrh_ug3^rhq)w99apuaj'
+SECRET_KEY = 'k1cc*o5l$v1ejtum@(*bh%8h1adz0+&h6-vsn)b9$w104*kadl'
 
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
@@ -67,7 +53,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'cms.middleware.multilingual.MultilingualURLMiddleware', #CMS
+#    'cms.middleware.multilingual.MultilingualURLMiddleware', #CMS
     'cms.middleware.page.CurrentPageMiddleware', #CMS
     'cms.middleware.user.CurrentUserMiddleware', #CMS
     'cms.middleware.toolbar.ToolbarMiddleware', #CMS
@@ -88,7 +74,7 @@ ROOT_URLCONF = 'demo.urls'
 WSGI_APPLICATION = 'demo.wsgi.application'
 
 TEMPLATE_DIRS = (
-    os.path.join(PROJECT_DIR, "libs/apps/blog/templates"),
+    os.path.join(PROJECT_DIR, "/apps/blog/templates"),
 )
 
 INSTALLED_APPS = (
@@ -107,14 +93,14 @@ INSTALLED_APPS = (
     'sekizai',
     'reversion',
     'cms.plugins.text',
-    'polls',
+    'demo.apps.polls',
     'filer',
     'easy_thumbnails',
     'cmsplugin_filer_file',
     'cmsplugin_filer_image',
     'cmsplugin_filer_teaser',
     'cms.plugins.link',
-    'plugins.bootstrap_button',
+    'demo.libs.plugins.bootstrap_button',
 )
 
 
@@ -193,8 +179,8 @@ CMS_REDIRECTS = True
 CMS_SOFTROOT = True
 CMS_PERMISSION = True
 CMS_SHOW_START_DATE = True
-CMS_SHOW_END_DATE = True 
-CMS_SEO_FIELDS = True 
+CMS_SHOW_END_DATE = True
+CMS_SEO_FIELDS = True
 
 THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.colorspace',
@@ -203,3 +189,12 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters',
 )
+
+try:
+   from dev import *
+except ImportError, e:
+    try:
+        from prod import *
+    except ImportError, e:
+        pass
+    print e
