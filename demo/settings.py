@@ -39,14 +39,14 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-MEDIA_ROOT = os.path.join(PROJECT_DIR, "libs/media")
+MEDIA_ROOT = os.path.join(PROJECT_DIR, "media")
 MEDIA_URL = '/media/'
 
 STATIC_ROOT = os.path.join(PROJECT_DIR, "static")
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_DIR, "libs/apps/blog/site-static"),
+    os.path.join(PROJECT_DIR, "site-static"),
 )
 
 STATICFILES_FINDERS = (
@@ -88,7 +88,7 @@ ROOT_URLCONF = 'demo.urls'
 WSGI_APPLICATION = 'demo.wsgi.application'
 
 TEMPLATE_DIRS = (
-    os.path.join(PROJECT_DIR, "libs/apps/blog/templates"),
+    os.path.join(PROJECT_DIR, "templates"),
 )
 
 INSTALLED_APPS = (

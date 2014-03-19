@@ -5,9 +5,6 @@ A demo site that shows a simple django CMS setup. I've included the sqlite
 database and some media into the project to make it easier to see how 
 django CMS works.
 
-This project is a fork of https://github.com/andrewschoen/django-cms-demo. This demo
-specifically is targeted for a Heroku development environment with a Postgresql database.
-
 Get the code and run the project locally.  Make sure to checkout the 
 frontend editing feature and try to add some pages.
 
@@ -22,7 +19,7 @@ Installation (with included database)
 
 ::
 
-    $ git clone https://github.com/hoviousj/django-cms-demo.git
+    $ git clone git://github.com/andrewschoen/django-cms-demo.git
     $ cd django-cms-demo
     $ virtualenv env
     $ source env/bin/activate
@@ -35,7 +32,7 @@ Installation (without included database)
 
 ::
 
-    $ git clone https://github.com/hoviousj/django-cms-demo.git
+    $ git clone git://github.com/andrewschoen/django-cms-demo.git
     $ cd django-cms-demo
     $ virtualenv env
     $ source env/bin/activate
