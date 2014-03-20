@@ -7,6 +7,8 @@ sys.path.insert(0, PROJECT_DIR)
 
 gettext = lambda s: s
 
+LANG="en_US.UTF-8"
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -39,14 +41,14 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-MEDIA_ROOT = os.path.join(PROJECT_DIR, "media")
+MEDIA_ROOT = os.path.join(PROJECT_DIR, "apps/blog/media")
 MEDIA_URL = '/media/'
 
 STATIC_ROOT = os.path.join(PROJECT_DIR, "static")
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_DIR, "site-static"),
+    os.path.join(PROJECT_DIR, "apps/blog/site-static"),
 )
 
 STATICFILES_FINDERS = (
@@ -88,7 +90,7 @@ ROOT_URLCONF = 'demo.urls'
 WSGI_APPLICATION = 'demo.wsgi.application'
 
 TEMPLATE_DIRS = (
-    os.path.join(PROJECT_DIR, "templates"),
+    os.path.join(PROJECT_DIR, "apps/blog/templates"),
 )
 
 INSTALLED_APPS = (
@@ -107,14 +109,14 @@ INSTALLED_APPS = (
     'sekizai',
     'reversion',
     'cms.plugins.text',
-    'polls',
+#    'demo.apps.blog.polls', //TODO delete
     'filer',
     'easy_thumbnails',
     'cmsplugin_filer_file',
     'cmsplugin_filer_image',
     'cmsplugin_filer_teaser',
     'cms.plugins.link',
-    'plugins.bootstrap_button',
+    'demo.apps.blog.plugins.bootstrap_button',
 )
 
 
@@ -145,7 +147,6 @@ LOGGING = {
 # django CMS settings
 LANGUAGES = [
     ('en', gettext('English')),
-    ('es', gettext('Spanish')),
 ]
 
 CMS_LANGUAGES = LANGUAGES

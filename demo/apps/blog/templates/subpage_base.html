@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags %}
+
+{% block base_content %}
+<div class="row">
+
+    <div class="span9">
+        {% block sub_content %}{% endblock %}
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+    {% show_placeholder 'footer' 'home' %}    
+{% endblock %}
