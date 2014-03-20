@@ -1,3 +1,27 @@
-# Install all of our production dependencies only.
--r requirements/prod.txt
--r requirements/common.txt
+#Common Requirements
+Django==1.4
+# PIL replacement for easier installs
+pillow==1.7.8
+South==0.7.5
+
+#Django-cms related
+django-classy-tags==0.3.4.1
+django-cms==2.3
+django-mptt==0.5.2
+django-polymorphic==0.2
+django-reversion==1.6.0
+django-sekizai==0.6.1
+easy-thumbnails==1.0.3
+html5lib==0.95
+wsgiref==0.1.2
+
+#Heroku related
+django-herokuify==1.0.pre3
+
+# Production Requirements
+newrelic==2.16.0.12
+
+
+# use develop for django 1.4 support and other fixes for now
+-e git://github.com/stefanfoulis/django-filer.git#egg=filer
+-e git://github.com/stefanfoulis/cmsplugin-filer.git#egg=cmsplugin-filer
