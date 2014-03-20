@@ -16,7 +16,7 @@ html5lib==0.95
 wsgiref==0.1.2
 
 #Heroku related
-django-herokuify==1.0.pre3
+#django-herokuify==1.0.pre3
 
 # Production Requirements
 newrelic==2.16.0.12
