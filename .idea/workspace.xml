@@ -28,7 +28,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="1" selection-start="323" selection-end="323" vertical-scroll-proportion="0.61503416" vertical-offset="0" max-vertical-offset="480">
+            <state line="18" column="14" selection-start="336" selection-end="336" vertical-scroll-proportion="0.61503416" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -803,7 +803,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="323" selection-end="323" vertical-scroll-proportion="0.61503416" vertical-offset="0" max-vertical-offset="480">
+        <state line="18" column="14" selection-start="336" selection-end="336" vertical-scroll-proportion="0.61503416" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>

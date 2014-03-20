@@ -16,6 +16,8 @@ html5lib==0.95
 wsgiref==0.1.2
 
 #Heroku related
+pylibmc==1.2.3
+django-pylibmc-sasl==0.2.4
 #django-herokuify==1.0.pre3
 
 # Production Requirements
