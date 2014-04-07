@@ -2,14 +2,19 @@
 {% load cms_tags menu_tags %}
 
 {% block base_content %}
-<div class="row">
+    <div class="row">
 
-    <div class="span9">
-        {% block sub_content %}{% endblock %}
+        <div class="span9">
+            {% block sub_content %}{% endblock %}
+        </div>
     </div>
-</div>
 {% endblock %}
 
 {% block footer %}
-    {% show_placeholder 'footer' 'home' %}    
+    <p class="footer-extra">
+        Demo LLC © 2014 All rights reserved.<br>
+        <a href=""> Terms of Use</a> |
+        <a href="">Privacy Policy</a><br>
+        <!--powered by <a href="https://www.djangoproject.com/">django</a>!-->
+    </p>
 {% endblock %}

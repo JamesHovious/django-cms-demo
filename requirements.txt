@@ -1,5 +1,5 @@
 #Common Requirements
-Django==1.4
+Django==1.4.0
 # PIL replacement for easier installs
 pillow==1.7.8
 South==0.7.5

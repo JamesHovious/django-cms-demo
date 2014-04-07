@@ -20,12 +20,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
   'default': {
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'ddsaaq8oqpev28',
-    'HOST': 'ec2-23-23-244-144.compute-1.amazonaws.com',
-    'PORT': 5432,
-    'USER': 'hwtozdbvvlusfx',
-    'PASSWORD': '0ZSbikGugaibALGwuUQORWqR8J'
+    'ENGINE': 'django.db.backends.sqlite3',
+    'NAME': 'demo.db',
+    'HOST': '',
+    'PORT': '',
+    'USER': '',
+    'PASSWORD': ''
   }
 }
 
@@ -33,7 +33,9 @@ TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
+import os; os.environ['LANG'] = 'en_US.UTF-8'
 LANGUAGE_CODE = 'en-us'
+
 
 SITE_ID = 1
 
