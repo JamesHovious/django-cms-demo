@@ -1,5 +1,5 @@
 #Common Requirements
-Django==1.4.0
+Django==1.4.10
 # PIL replacement for easier installs
 pillow==1.7.8
 South==0.7.5
@@ -9,7 +9,7 @@ django-classy-tags==0.3.4.1
 django-cms==2.3
 django-mptt==0.5.2
 django-polymorphic==0.2
-django-reversion==1.6.0
+django-reversion==1.6.6
 django-sekizai==0.6.1
 easy-thumbnails==1.0.3
 html5lib==0.95
@@ -21,7 +21,7 @@ django-pylibmc-sasl==0.2.4
 #django-herokuify==1.0.pre3
 
 # Production Requirements
-newrelic==2.16.0.12
+newrelic==2.18.1.15
 
 
 # use develop for django 1.4 support and other fixes for now

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ea06508-7121-47fd-a16e-95de53c1c380" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.db" afterPath="$PROJECT_DIR$/demo.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/settings.py" afterPath="$PROJECT_DIR$/demo/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django-cms-demo.iws" />
@@ -24,7 +27,19 @@
     <favorites_list name="django-cms-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="119" column="28" selection-start="2941" selection-end="2941" vertical-scroll-proportion="4.056818" vertical-offset="0" max-vertical-offset="3225">
+              <folding>
+                <element signature="e#36#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -64,10 +79,10 @@
         <option value="$PROJECT_DIR$/demo/apps/blog/polls/admin.py" />
         <option value="$PROJECT_DIR$/demo/apps/blog/polls/urls.py" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/demo/settings.py" />
         <option value="$PROJECT_DIR$/demo/apps/blog/templates/subpage_base.html" />
         <option value="$PROJECT_DIR$/demo/apps/blog/templates/base.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/demo/settings.py" />
       </list>
     </option>
   </component>
@@ -134,79 +149,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django-cms-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django-cms-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django-cms-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django-cms-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django-cms-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django-cms-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../django-mezzanine-demo" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -230,6 +179,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Django server.django-cms-demo">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -238,14 +195,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -332,27 +281,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="django-cms-demo" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -378,7 +307,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-cms-demo" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -489,22 +438,22 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2688822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27265862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -555,23 +504,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="38" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="43" column="38" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="10" column="14" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
@@ -590,23 +533,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="38" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="43" column="38" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
@@ -625,9 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="38" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="410" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="43" column="38" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="410" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/__init__.py">
@@ -647,9 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9029851" vertical-offset="363" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9029851" vertical-offset="363" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="uml://DjangoModelDependency/#django-cms-demo">
@@ -717,56 +650,44 @@
         <state line="4" column="26" selection-start="70" selection-end="70" vertical-scroll-proportion="0.10250569" vertical-offset="0" max-vertical-offset="439" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/apps/blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="176" selection-end="176" vertical-scroll-proportion="0.21634616" vertical-offset="0" max-vertical-offset="416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="490" selection-end="490" vertical-scroll-proportion="0.64903843" vertical-offset="0" max-vertical-offset="416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="20" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.27884614" vertical-offset="724" max-vertical-offset="1335" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.03409091" vertical-offset="0" max-vertical-offset="510">
+        <state line="11" column="23" selection-start="232" selection-end="232" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="45" selection-start="683" selection-end="683" vertical-scroll-proportion="0.375" vertical-offset="360" max-vertical-offset="3210">
+        <state line="119" column="28" selection-start="2941" selection-end="2941" vertical-scroll-proportion="4.056818" vertical-offset="0" max-vertical-offset="3225">
           <folding>
             <element signature="e#36#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="440">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/apps/blog/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="176" selection-end="176" vertical-scroll-proportion="0.21634616" vertical-offset="0" max-vertical-offset="416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/subpage_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="490" selection-end="490" vertical-scroll-proportion="0.64903843" vertical-offset="0" max-vertical-offset="416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/apps/blog/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="20" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.27884614" vertical-offset="724" max-vertical-offset="1335">
-          <folding />
         </state>
       </provider>
     </entry>
