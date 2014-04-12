@@ -29,6 +29,22 @@ DATABASES = {
   }
 }
 
+#To set up Heroku caching use the add on MemCachier and input your credentials here
+#import herokuify
+#CACHES = herokuify.get_cache_config()   # Memcache config for Memcache/MemCachier
+
+#COMPRESS_STORAGE = "herokuify.storage.CachedS3StaticStorage"
+#COMPRESS_OFFLINE = True
+#ROBOTS_CACHE_TIMEOUT = 60*60*24
+
+#To set up Amazon S3 media hosting just input your bucket information below
+
+#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+#AWS_QUERYSTRING_AUTH = True
+#AWS_STORAGE_BUCKET_NAME = 'sample_bucket'
+#STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+#S3_URL = 'https://s3.amazonaws.com/sample_bucket/'
+
 TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
@@ -120,6 +136,8 @@ INSTALLED_APPS = (
     'cmsplugin_filer_video',
     'cms.plugins.link',
     'demo.apps.blog.plugins.bootstrap_button',
+    'herokuify',
+    'storages',
 )
 
 
