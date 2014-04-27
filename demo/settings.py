@@ -1,6 +1,6 @@
 # Django settings for demo project.
-import os
 import sys
+import os
 PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
 
 sys.path.insert(0, PROJECT_DIR)
@@ -30,20 +30,21 @@ DATABASES = {
 }
 
 #To set up Heroku caching use the add on MemCachier and input your credentials here
-#import herokuify
-#CACHES = herokuify.get_cache_config()   # Memcache config for Memcache/MemCachier
+import herokuify
+CACHES = herokuify.get_cache_config()   # Memcache config for Memcache/MemCachier
 
-#COMPRESS_STORAGE = "herokuify.storage.CachedS3StaticStorage"
-#COMPRESS_OFFLINE = True
-#ROBOTS_CACHE_TIMEOUT = 60*60*24
+COMPRESS_STORAGE = "herokuify.storage.CachedS3StaticStorage"
+COMPRESS_OFFLINE = True
+ROBOTS_CACHE_TIMEOUT = 60*60*24
 
 #To set up Amazon S3 media hosting just input your bucket information below
 
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-#AWS_QUERYSTRING_AUTH = True
-#AWS_STORAGE_BUCKET_NAME = 'sample_bucket'
-#STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-#S3_URL = 'https://s3.amazonaws.com/sample_bucket/'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+AWS_QUERYSTRING_AUTH = True
+AWS_STORAGE_BUCKET_NAME = 'demo-cms-heroku'
+
+STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+S3_URL = 'https://s3.amazonaws.com/demo-cms-heroku/'
 
 TIME_ZONE = 'America/Chicago'
 
@@ -62,8 +63,8 @@ USE_TZ = True
 MEDIA_ROOT = os.path.join(PROJECT_DIR, "apps/blog/media")
 MEDIA_URL = '/media/'
 
-STATIC_ROOT = os.path.join(PROJECT_DIR, "static")
-STATIC_URL = '/static/'
+STATIC_ROOT = S3_URL
+STATIC_URL = S3_URL
 
 STATICFILES_DIRS = (
     os.path.join(PROJECT_DIR, "apps/blog/site-static"),
