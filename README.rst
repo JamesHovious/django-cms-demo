@@ -1,6 +1,12 @@
 django CMS Demo
 ===============
 
+django-cms is an awesome way to build your sites. However setting up the environment/dependancies can frustrate you to
+the point that you give up. This project is made to minimize the amount of configuration needed, so you can get
+right to coding!
+
+There *is* some configuration to be done, but this project makes it much less painful.
+
 A demo site that shows a simple django CMS setup. I've included the sqlite
 database and some media into the project to make it easier to see how 
 django CMS works.
@@ -51,6 +57,7 @@ Login to the admin at http://localhost:8000/admin
 Customizing your configuration
 ------------------------------
 
+
 To deploy with Heroku/Amazon S3 navigate to settings.py uncomment the below lines and fill them in with your relevant information.
 
 ::
@@ -71,6 +78,18 @@ To deploy with Heroku/Amazon S3 navigate to settings.py uncomment the below line
     #S3_URL = 'https://s3.amazonaws.com/sample_bucket/'
 
 For more information on configuration see http://pythonhosted.org/django-herokuify/
+
+**IMPORTANT** To use your amazon s3 buket you must set up your credentials on the host system:
+
+::
+
+    #cd
+    #nano .boto
+
+    #[Credentials]
+    #aws_access_key_id = 'YOURID'
+    #aws_secret_access_key = 'YOURKEY'
+
 
 Admin credentials
 +++++++++++++++++

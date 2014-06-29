@@ -4,14 +4,14 @@
     <facet type="django" name="Django">
       <configuration>
         <option name="rootFolder" value="$MODULE_DIR$" />
-        <option name="settingsModule" value="settings.py" />
+        <option name="settingsModule" value="demo/settings.py" />
         <option name="manageScript" value="manage.py" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7.5 virtualenv at ~/PycharmProjects/VirtualEnvironments/DemoCmsVenv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7.7 virtualenv at ~/Google Drive/Pfiles/Repos/PyCharm/Virtual Environments/django-cms" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
